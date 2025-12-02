@@ -1,9 +1,9 @@
 {
   "common": {
     "brand": {
-      "name": "SISTINE",
-      "tagline": "Sistine AI & Sistine Labs",
-      "copyright": "版权所有 © 2025 Sistine AI & Sistine Labs",
+      "name": "yanina.AI",
+      "tagline": "yanina.AI",
+      "copyright": "版权所有 © 2025 yanina.AI",
       "allRightsReserved": "保留所有权利"
     },
     "actions": {
@@ -62,33 +62,33 @@
     }
   },
   "hero": {
-    "badge": "⚡ 专为 Vibe Coding 打造的首款入门套件",
-    "title": "通过 Vibe Coding 将您的 AI SaaS 产品投入生产",
-    "description": "不懂编程？没问题。Sistine 加上 AI 编程助手，让您的 SaaS 创意在数小时内上线。您只需描述您的想法，即可交付用户真正喜爱的产品。",
+    "badge": "⚡ AI 视频生成平台",
+    "title": "通过自然语言生成精准的视频内容",
+    "description": "yanina.AI 支持用户通过自然语言描述，精准生成高质量视频内容。无需专业技能，只需描述您的想法，即可获得专业级视频作品。",
     "cta": {
-      "primary": "查看文档",
-      "secondary": "获取代码"
+      "primary": "立即体验",
+      "secondary": "了解更多"
     }
   },
   "features": {
-    "title": "Vibe Coding 成功所需的一切功能",
-    "subtitle": "告别在样板代码上浪费时间。专注于描述您的独特功能，Sistine 会为您处理好底层基础。借助 AI 加速产品交付。",
+    "title": "核心亮点",
+    "subtitle": "yanina.AI 致力于为用户提供最优质的视频生成体验，让创意轻松转化为专业视频内容。",
     "items": {
-      "aiOptimized": {
-        "title": "为 AI 辅助开发而生",
-        "description": "为 Cursor、Windsurf 和 Claude Code 等工具完美结构化。每个文件、每个组件都经过优化，便于 AI 理解和修改。"
+      "preciseRecreation": {
+        "title": "精准还原需求",
+        "description": "先进的 AI 技术能够准确理解您的自然语言描述，精准还原您的创意想法，确保生成的视频内容完全符合您的预期。"
       },
-      "zeroPipeline": {
-        "title": "从零到生产的完整流程",
-        "description": "身份验证、支付、数据库、部署——一切均已配置完毕。只需向您的 AI 助手发出指令，即可见证您的 SaaS 产品诞生。"
+      "qualityLeading": {
+        "title": "质量领先",
+        "description": "采用业界领先的视频生成技术，确保输出内容具有专业级画质和流畅度，满足各类商业和创作需求。"
       },
-      "nonTechnical": {
-        "title": "对非技术背景的创始人友好",
-        "description": "分不清 React 和 Rails？没关系。只要您能清晰地描述您的想法，就能成功交付一款 SaaS 产品。"
+      "easyToUse": {
+        "title": "简单易用",
+        "description": "无需专业技能，只需用自然语言描述您的想法，即可快速生成高质量视频内容，让创作变得简单高效。"
       },
-      "productionGrade": {
-        "title": "从第一天起即达生产级别",
-        "description": "支持真实用户、真实支付、真实规模。基于 Next.js、PostgreSQL 和 Creem 构建——与价值数十亿美元公司使用的技术栈一致。"
+      "fastGeneration": {
+        "title": "快速生成",
+        "description": "强大的 AI 引擎支持快速处理，在短时间内完成视频生成，让您的创意想法迅速落地。"
       }
     }
   },
@@ -420,7 +420,7 @@
   },
   "demo": {
     "badge": "先试后买",
-    "title": "体验 Sistine AI",
+    "title": "体验 yanina.AI",
     "description": "无需注册即可测试我们强大的 AI 功能。获得 3 次免费试用机会，探索我们的能力。",
     "limitReached": "您已达到演示限制。立即注册以继续使用完整功能的 AI 工具！",
     "signUpNow": "立即注册",
@@ -735,7 +735,7 @@
     "title": "仪表盘",
     "welcome": "欢迎回来",
     "welcomeBonus": {
-      "title": "🎉 欢迎加入 Sistine!",
+      "title": "🎉 欢迎加入 yanina.AI!",
       "message": "恭喜您成功注册！我们已为您的账户赠送 300 积分新人礼包。",
       "description": "这些积分可用于体验我们的 AI 对话、图像生成、视频生成等功能。",
       "ctaButton": "立即体验",
@@ -892,8 +892,8 @@
     "subtitle": "我们很乐意倾听您的声音。给我们发送消息，我们会尽快回复。",
     "description": "请联系我们，我们会以光速回复您。",
     "testimonial": {
-      "title": "Sistine AI 被数千名用户使用",
-      "description": "在众多 AI 应用中，Sistine AI 以其顶级的 AI 能力脱颖而出。"
+      "title": "yanina.AI 被数千名用户使用",
+      "description": "在众多 AI 应用中，yanina.AI 以其精准的视频生成能力和领先的质量脱颖而出。"
     },
     "form": {
       "nameLabel": "姓名",

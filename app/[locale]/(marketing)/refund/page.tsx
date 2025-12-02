@@ -26,73 +26,63 @@ export default function RefundPage() {
         <h1 className="text-4xl font-bold mb-8">Refund Policy</h1>
         
         <p className="text-muted-foreground mb-8">
-          Effective Date: [Date]
+          Effective Date: January 1, 2025
         </p>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">1. Overview</h2>
           <p>
-            At [Your Company Name], we strive to ensure customer satisfaction with our products and services. This Refund Policy outlines the conditions under which you may request a refund and the process for doing so.
+            At yanina.AI, we are committed to providing reliable and high-quality AI video generation services. This Refund Policy outlines the specific conditions under which refunds may be granted.
           </p>
-          <p>
-            We believe in the quality of our service and want you to be completely satisfied with your purchase. If you're not satisfied, we're here to help.
+          <p className="mt-4">
+            <strong>Important:</strong> All credit purchases and subscription fees are final and non-refundable, except in the limited circumstances described below.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">2. Refund Eligibility</h2>
           
-          <h3 className="text-xl font-semibold mb-3">Full Refunds Are Available For:</h3>
+          <h3 className="text-xl font-semibold mb-3">Service Failure Refunds</h3>
+          <p>
+            Refunds will only be considered in the following circumstances:
+          </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Technical Issues:</strong> Service failures preventing access or use of core features</li>
-            <li><strong>Billing Errors:</strong> Duplicate charges, incorrect amounts, or unauthorized transactions</li>
-            <li><strong>Non-Delivery:</strong> Failure to provide purchased services or products</li>
-            <li><strong>Misrepresentation:</strong> Service significantly different from advertised capabilities</li>
-            <li><strong>Account Issues:</strong> Extended inability to access your paid account (&gt;48 hours)</li>
-            <li><strong>Pre-Launch Purchases:</strong> Cancellations before service activation</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mb-3 mt-4">Partial Refunds May Be Considered For:</h3>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Service interruptions or degraded performance</li>
-            <li>Features temporarily unavailable</li>
-            <li>Quality issues not meeting reasonable expectations</li>
-            <li>Partial month of unused subscription service</li>
+            <li><strong>Complete Service Failure:</strong> If yanina.AI experiences a complete system failure or crash that prevents you from accessing or using the Service for more than 48 consecutive hours</li>
+            <li><strong>Technical Inability to Deliver:</strong> If we are unable to deliver the Service due to technical issues on our end that prevent video generation functionality</li>
+            <li><strong>Extended Service Outage:</strong> If the Service is unavailable for an extended period due to our infrastructure failures</li>
           </ul>
 
           <h3 className="text-xl font-semibold mb-3 mt-4">Refunds Are NOT Available For:</h3>
+          <p>
+            The following situations do NOT qualify for refunds:
+          </p>
           <ul className="list-disc pl-6 space-y-2">
             <li><strong>Change of Mind:</strong> Simply deciding you no longer want the service</li>
-            <li><strong>Used Services:</strong> Credits, tokens, or resources already consumed</li>
-            <li><strong>User Error:</strong> Mistakes in usage or misunderstanding of features</li>
-            <li><strong>External Factors:</strong> Issues with third-party integrations or services</li>
-            <li><strong>Terms Violations:</strong> Account suspension due to Terms of Service violations</li>
-            <li><strong>Late Requests:</strong> Refund requests beyond the specified timeframe</li>
-            <li><strong>Custom Work:</strong> Completed custom development or consulting services</li>
-            <li><strong>Downloaded Content:</strong> Digital products already downloaded or accessed</li>
+            <li><strong>Dissatisfaction:</strong> Dissatisfaction with generated video quality, content, or results</li>
+            <li><strong>Used Credits:</strong> Credits that have already been consumed or used to generate videos</li>
+            <li><strong>User Error:</strong> Mistakes in usage, misunderstanding of features, or incorrect input</li>
+            <li><strong>Partial Service Interruptions:</strong> Temporary technical issues, brief outages, or degraded performance</li>
+            <li><strong>Accidental Purchases:</strong> Accidental or mistaken purchases</li>
+            <li><strong>Account Termination:</strong> Account suspension or termination due to violation of Terms of Service</li>
+            <li><strong>Third-Party Issues:</strong> Issues with payment gateways, internet connectivity, or other external factors</li>
+            <li><strong>Subscription Cancellations:</strong> Cancelling a subscription does not entitle you to a refund for the current billing period</li>
+            <li><strong>Late Requests:</strong> Refund requests submitted more than 30 days after the service failure</li>
           </ul>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">3. Refund Request Timeframe</h2>
-          
-          <h3 className="text-xl font-semibold mb-3">Standard Products and Services:</h3>
-          <ul className="list-disc pl-6 space-y-2">
-            <li><strong>One-time purchases:</strong> Within 30 days of purchase</li>
-            <li><strong>Subscriptions:</strong> Within 14 days of renewal</li>
-            <li><strong>Annual plans:</strong> Within 30 days of purchase</li>
-            <li><strong>Digital downloads:</strong> Within 7 days if not accessed</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mb-3 mt-4">Special Circumstances:</h3>
           <p>
-            Extended timeframes may apply for:
+            To be eligible for a refund due to service failure, you must submit your refund request:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Service outages lasting more than 72 hours</li>
-            <li>Documented billing errors</li>
-            <li>Legal requirements in your jurisdiction</li>
+            <li><strong>Within 30 days</strong> of the service failure occurrence</li>
+            <li>While the service failure is ongoing or immediately after it is resolved</li>
+            <li>With detailed documentation of the service failure and its impact on your ability to use the Service</li>
           </ul>
+          <p className="mt-4">
+            Refund requests submitted after 30 days from the service failure will not be considered.
+          </p>
         </section>
 
         <section className="mb-8">
@@ -100,14 +90,21 @@ export default function RefundPage() {
           
           <h3 className="text-xl font-semibold mb-3">Step 1: Contact Support</h3>
           <p>
-            Send an email to [Support Email] with the following information:
+            To request a refund due to service failure, send an email to support@yanina.ai with the following information:
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Your account email address</li>
             <li>Order number or transaction ID</li>
             <li>Date of purchase</li>
-            <li>Detailed reason for refund request</li>
-            <li>Any relevant screenshots or documentation</li>
+            <li>Detailed description of the service failure, including:
+              <ul className="list-disc pl-6 mt-2 space-y-1">
+                <li>Date and time of the service failure</li>
+                <li>Duration of the outage or inability to use the Service</li>
+                <li>Specific error messages or issues encountered</li>
+                <li>Screenshots or documentation of the service failure</li>
+              </ul>
+            </li>
+            <li>Impact on your ability to use the Service</li>
           </ul>
 
           <h3 className="text-xl font-semibold mb-3 mt-4">Step 2: Review Process</h3>
@@ -117,169 +114,121 @@ export default function RefundPage() {
           <ul className="list-disc pl-6 space-y-2">
             <li>Acknowledge your request within 1-2 business days</li>
             <li>Review your eligibility based on this policy</li>
+            <li>Verify the service failure with our technical team</li>
             <li>Request additional information if needed</li>
-            <li>Attempt to resolve issues before processing refund</li>
+            <li>Make a decision within 5 business days of receiving all required information</li>
           </ul>
 
-          <h3 className="text-xl font-semibold mb-3 mt-4">Step 3: Resolution</h3>
+          <h3 className="text-xl font-semibold mb-3 mt-4">Step 3: Refund Processing</h3>
           <p>
-            Once approved, refunds are processed as follows:
+            If your refund request is approved:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Decision communicated within 5 business days</li>
-            <li>Refunds issued to original payment method</li>
-            <li>Processing time: 5-10 business days</li>
-            <li>Bank processing may add 3-5 additional days</li>
+            <li>You will receive confirmation via email</li>
+            <li>Refunds will be issued to the original payment method</li>
+            <li>Processing time: 5-14 business days</li>
+            <li>Bank or payment processor may add additional processing time</li>
+            <li>For subscription refunds, the subscription will be cancelled and no future charges will occur</li>
           </ul>
+          <p className="mt-4">
+            <strong>Note:</strong> If your refund request is denied, we will provide a detailed explanation of the decision.
+          </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">5. Refund Methods</h2>
-          
-          <h3 className="text-xl font-semibold mb-3">Original Payment Method</h3>
           <p>
-            Refunds are typically issued to the original payment method:
+            Approved refunds will be issued to the original payment method used for the purchase:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Credit/Debit Cards:</strong> 5-10 business days</li>
-            <li><strong>PayPal:</strong> 3-5 business days</li>
-            <li><strong>Bank Transfer:</strong> 5-7 business days</li>
-            <li><strong>Cryptocurrency:</strong> Not refundable due to transaction nature</li>
+            <li><strong>Credit/Debit Cards:</strong> 5-14 business days</li>
+            <li><strong>PayPal:</strong> 3-7 business days</li>
+            <li><strong>Other Payment Methods:</strong> Processing time varies by payment provider</li>
           </ul>
-
-          <h3 className="text-xl font-semibold mb-3 mt-4">Alternative Options</h3>
-          <p>
-            In certain cases, we may offer:
+          <p className="mt-4">
+            The refund amount will be equal to the amount paid, minus any credits that were already consumed before the service failure occurred.
           </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Account credits for future use</li>
-            <li>Service extensions or upgrades</li>
-            <li>Transfer to different products/services</li>
-            <li>Charitable donation of refund amount</li>
-          </ul>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">6. Subscription Cancellations</h2>
+          <h2 className="text-2xl font-semibold mb-4">6. Credits and Subscription Refunds</h2>
           
-          <h3 className="text-xl font-semibold mb-3">Cancellation vs. Refund</h3>
+          <h3 className="text-xl font-semibold mb-3">Credit Purchases</h3>
           <p>
-            Cancelling a subscription is different from requesting a refund:
+            For one-time credit purchases:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong>Cancellation:</strong> Stops future charges, service continues until end of billing period</li>
-            <li><strong>Refund:</strong> Returns payment for unused or unsatisfactory service</li>
+            <li>Refunds will be calculated based on unused credits at the time of service failure</li>
+            <li>Credits already consumed will not be refunded</li>
+            <li>If all credits were unused due to service failure, a full refund will be issued</li>
           </ul>
 
-          <h3 className="text-xl font-semibold mb-3 mt-4">Pro-Rated Refunds</h3>
+          <h3 className="text-xl font-semibold mb-3 mt-4">Subscription Plans</h3>
           <p>
-            For eligible subscription refunds:
+            For subscription plans:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Annual plans: Pro-rated for unused months</li>
-            <li>Monthly plans: Generally no pro-rating</li>
-            <li>Usage-based plans: Refund for unused credits only</li>
+            <li>If service failure occurs, refunds will be calculated based on the unused portion of the current billing period</li>
+            <li>The subscription will be cancelled as part of the refund process</li>
+            <li>Credits already consumed during the billing period will not be refunded</li>
+            <li>Future billing periods will not be charged</li>
           </ul>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">7. Dispute Resolution</h2>
-          
           <p>
-            If you disagree with our refund decision:
+            If you disagree with our refund decision, you may:
           </p>
-          
-          <h3 className="text-xl font-semibold mb-3">Internal Review</h3>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Request escalation to management</li>
-            <li>Provide additional documentation</li>
-            <li>Allow 5 business days for review</li>
+            <li>Request an internal review by providing additional documentation</li>
+            <li>Contact us at support@yanina.ai for further clarification</li>
+            <li>File a dispute with your payment provider in accordance with their policies</li>
           </ul>
-
-          <h3 className="text-xl font-semibold mb-3 mt-4">External Options</h3>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>File a dispute with your payment provider</li>
-            <li>Contact consumer protection agencies</li>
-            <li>Seek resolution through small claims court</li>
-            <li>Report to Better Business Bureau (if applicable)</li>
-          </ul>
+          <p className="mt-4">
+            We are committed to fair and transparent resolution of all refund requests that meet our policy criteria.
+          </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">8. Special Circumstances</h2>
-          
-          <h3 className="text-xl font-semibold mb-3">Promotional Offers</h3>
-          <p>
-            Products purchased with promotional discounts:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Refunded at the discounted price paid</li>
-            <li>May have different refund terms</li>
-            <li>Bundle deals refunded proportionally</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mb-3 mt-4">Enterprise Accounts</h3>
-          <p>
-            Business and enterprise customers may have:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Custom refund terms in their contracts</li>
-            <li>Service level agreement (SLA) credits</li>
-            <li>Different dispute resolution procedures</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mb-3 mt-4">Free Trials</h3>
-          <p>
-            Free trial conversions:
-          </p>
-          <ul className="list-disc pl-6 space-y-2">
-            <li>Full refund if charged before trial ends</li>
-            <li>Refund for accidental conversion within 48 hours</li>
-            <li>No refund after actively using paid features</li>
-          </ul>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">9. Fraudulent Refund Requests</h2>
+          <h2 className="text-2xl font-semibold mb-4">8. Fraudulent Refund Requests</h2>
           <p>
             We reserve the right to:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Deny refunds for suspected fraudulent activity</li>
-            <li>Suspend accounts with excessive refund requests</li>
-            <li>Report fraudulent behavior to authorities</li>
-            <li>Pursue legal action for chargebacks deemed fraudulent</li>
+            <li>Deny refunds for suspected fraudulent activity or misrepresentation</li>
+            <li>Suspend accounts that submit fraudulent refund requests</li>
+            <li>Report fraudulent behavior to relevant authorities</li>
+            <li>Pursue legal action for fraudulent chargebacks</li>
           </ul>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">10. Policy Modifications</h2>
+          <h2 className="text-2xl font-semibold mb-4">9. Policy Modifications</h2>
           <p>
             We reserve the right to modify this refund policy at any time. Changes will be:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Posted on this page with updated effective date</li>
+            <li>Posted on this page with an updated effective date</li>
             <li>Communicated via email for significant changes</li>
             <li>Applied to new purchases after the effective date</li>
-            <li>Honored under previous terms for existing purchases</li>
+            <li>Honored under previous terms for existing purchases made before the change</li>
           </ul>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">11. Contact Information</h2>
+          <h2 className="text-2xl font-semibold mb-4">10. Contact Information</h2>
           <p>
             For refund requests and questions about this policy:
           </p>
           <ul className="list-none space-y-2 mt-4">
-            <li><strong>Support Email:</strong> [Support Email]</li>
-            <li><strong>Billing Disputes:</strong> [Billing Email]</li>
+            <li><strong>Support Email:</strong> support@yanina.ai</li>
             <li><strong>Response Time:</strong> 1-2 business days</li>
-            <li><strong>Business Hours:</strong> [Your Business Hours]</li>
-            <li><strong>Website:</strong> [Your Website]</li>
+            <li><strong>Website:</strong> https://yanina.ai</li>
           </ul>
           
           <p className="mt-6 p-4 bg-primary/10 rounded-lg">
-            <strong>Note:</strong> This refund policy is part of our commitment to customer satisfaction. We encourage you to contact us with any concerns before requesting a refund, as we may be able to resolve your issue quickly.
+            <strong>Important Reminder:</strong> This refund policy is strictly limited to service failures caused by yanina.AI system crashes or technical failures. All other purchases are final and non-refundable. We encourage you to contact us with any questions or concerns about our Service.
           </p>
         </section>
       </div>

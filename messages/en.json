@@ -1,9 +1,9 @@
 {
   "common": {
     "brand": {
-      "name": "SISTINE",
-      "tagline": "Sistine AI & Sistine Labs",
-      "copyright": "Copyright © 2025 Sistine AI & Sistine Labs",
+      "name": "yanina.AI",
+      "tagline": "yanina.AI",
+      "copyright": "Copyright © 2025 yanina.AI",
       "allRightsReserved": "All rights reserved"
     },
     "actions": {
@@ -62,33 +62,33 @@
     }
   },
   "hero": {
-    "badge": "⚡ The First Starter Built for Vibe Coding",
-    "title": "Vibe Code Your AI SaaS to Production",
-    "description": "No coding skills? Perfect. Sistine + AI coding assistants = Your SaaS idea live in hours. Just describe what you want. Ship what users love.",
+    "badge": "⚡ AI Video Generation Platform",
+    "title": "Generate Precise Video Content with Natural Language",
+    "description": "yanina.AI enables users to generate high-quality video content through natural language descriptions. No professional skills required - just describe your ideas and get professional-grade video productions.",
     "cta": {
-      "primary": "View Docs",
-      "secondary": "Get Code"
+      "primary": "Try Now",
+      "secondary": "Learn More"
     }
   },
   "features": {
-    "title": "Everything You Need for Vibe Coding Success",
-    "subtitle": "Stop wasting time on boilerplate. Focus on describing your unique features while Sistine handles the foundation. Ship faster with AI.",
+    "title": "Core Highlights",
+    "subtitle": "yanina.AI is committed to providing users with the best video generation experience, making it easy to transform ideas into professional video content.",
     "items": {
-      "aiOptimized": {
-        "title": "Built for AI-Assisted Development",
-        "description": "Perfectly structured for Cursor, Windsurf, and Claude Code. Every file, every component optimized for AI understanding and modification."
+      "preciseRecreation": {
+        "title": "Precise Requirement Recreation",
+        "description": "Advanced AI technology accurately understands your natural language descriptions and precisely recreates your creative ideas, ensuring the generated video content fully meets your expectations."
       },
-      "zeroPipeline": {
-        "title": "Zero to Production Pipeline",
-        "description": "Authentication, payments, database, deployment - all configured. Just prompt your AI assistant and watch your SaaS come to life."
+      "qualityLeading": {
+        "title": "Leading Quality",
+        "description": "Utilizing industry-leading video generation technology to ensure professional-grade quality and smoothness, meeting various commercial and creative needs."
       },
-      "nonTechnical": {
-        "title": "Non-Technical Founder Friendly",
-        "description": "Don't know React from Rails? Doesn't matter. If you can describe your idea clearly, you can ship a SaaS product."
+      "easyToUse": {
+        "title": "Easy to Use",
+        "description": "No professional skills required. Simply describe your ideas in natural language to quickly generate high-quality video content, making creation simple and efficient."
       },
-      "productionGrade": {
-        "title": "Production-Grade from Day One",
-        "description": "Real users, real payments, real scale. Built on Next.js, PostgreSQL, and Creem - the same stack powering billion-dollar companies."
+      "fastGeneration": {
+        "title": "Fast Generation",
+        "description": "Powerful AI engine supports rapid processing, completing video generation in a short time, allowing your creative ideas to come to life quickly."
       }
     }
   },
@@ -420,7 +420,7 @@
   },
   "demo": {
     "badge": "Try Before You Buy",
-    "title": "Experience Sistine AI",
+    "title": "Experience yanina.AI",
     "description": "Test our powerful AI features without signing up. Get 3 free trials to explore what we can do.",
     "limitReached": "You've reached the demo limit. Sign up to continue using our AI tools with full features!",
     "signUpNow": "Sign Up Now",
@@ -735,7 +735,7 @@
     "title": "Dashboard",
     "welcome": "Welcome back",
     "welcomeBonus": {
-      "title": "🎉 Welcome to Sistine!",
+      "title": "🎉 Welcome to yanina.AI!",
       "message": "Congratulations on your successful registration! We've added 300 credits welcome bonus to your account.",
       "description": "Use these credits to try our AI chat, image generation, video generation, and more features.",
       "ctaButton": "Try Now",
@@ -893,8 +893,8 @@
     "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
     "description": "Please reach out to us and we will get back to you at the speed of light.",
     "testimonial": {
-      "title": "Sistine AI is used by thousands of users",
-      "description": "With lots of AI applications around, Sistine AI stands out with its state of the art AI capabilities."
+      "title": "yanina.AI is used by thousands of users",
+      "description": "Among many AI applications, yanina.AI stands out with its precise video generation capabilities and leading quality."
     },
     "form": {
       "nameLabel": "Full Name",

@@ -49,7 +49,7 @@ export const subscriptionPlans: Record<PlanKey, SubscriptionPlan> = {
     currency: "usd",
     creditsPerCycle: 1000,
     cycle: "month",
-    creemPriceId: "prod_6oSIwPL8m6scklr3fwdkC9",
+    creemPriceId: "prod_3lS4AzWcypLmQQ4ZbZ0kGw", // 测试产品ID
     grantSchedule: { mode: "per_cycle" },
   },
   starter_yearly: {

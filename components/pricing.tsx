@@ -27,14 +27,32 @@ export function Pricing() {
         router.push(`/${locale}/signup`);
         return;
       }
-      const res = await fetch("/api/payments/creem/checkout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ key, kind }),
-      });
-      if (!res.ok) return;
-      const { url } = (await res.json()) as { url: string };
-      window.location.href = url;
+      try {
+        const res = await fetch("/api/payments/creem/checkout", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ key, kind }),
+        });
+        
+        if (!res.ok) {
+          const errorData = await res.json().catch(() => ({ error: "Unknown error" }));
+          console.error("Checkout failed:", errorData);
+          alert(`支付失败: ${errorData.error || "请检查配置"}`);
+          return;
+        }
+        
+        const { url } = (await res.json()) as { url: string };
+        if (!url) {
+          console.error("No checkout URL returned");
+          alert("支付链接生成失败，请稍后重试");
+          return;
+        }
+        
+        window.location.href = url;
+      } catch (error) {
+        console.error("Checkout error:", error);
+        alert("支付处理出错，请稍后重试");
+      }
     },
     [locale, router, userId]
   );

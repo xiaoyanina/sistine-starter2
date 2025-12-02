@@ -34,6 +34,7 @@ export async function createCheckoutSession(params: CreateCheckoutParams): Promi
   const payload: Record<string, unknown> = {
     product_id: params.creemPriceId, // Creem expects product_id
     success_url: params.successUrl,
+    cancel_url: params.cancelUrl, // 添加取消URL
     metadata: {
       userId: params.userId,
       key: params.key,
@@ -44,7 +45,19 @@ export async function createCheckoutSession(params: CreateCheckoutParams): Promi
   const base = process.env.CREEM_API_BASE || "https://api.creem.io";
   const endpointUrl = `${base}/v1/checkouts`; // Correct endpoint path from docs
 
+  // 验证必要参数
+  if (!params.creemPriceId) {
+    throw new Error("Creem product ID is required");
+  }
+
   try {
+    console.log("[Creem] Creating checkout session:", {
+      endpoint: endpointUrl,
+      productId: params.creemPriceId,
+      hasApiKey: !!apiKey,
+      apiKeyPrefix: apiKey?.substring(0, 10) + "...",
+    });
+
     const res = await fetch(endpointUrl, {
       method: "POST",
       headers: {
@@ -56,6 +69,12 @@ export async function createCheckoutSession(params: CreateCheckoutParams): Promi
 
     if (!res.ok) {
       const errorText = await res.text();
+      console.error("[Creem] API Error:", {
+        status: res.status,
+        statusText: res.statusText,
+        error: errorText,
+        headers: Object.fromEntries(res.headers.entries()),
+      });
       throw new Error(`Creem checkout create failed: ${res.status} ${errorText}`);
     }
 
